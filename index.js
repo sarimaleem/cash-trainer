@@ -10,6 +10,11 @@ x = document.createElement("h1")
 x.innerHTML = "this is an element that i created in javascript"
 document.getElementById("test").appendChild(x)
 
+function newFeature() {
+    //this is a new feature that does new stuff
+    console.log("new feature");
+}
+
 
 function toggleText() {
     let text = document.getElementById("testButton").innerHTML
