@@ -1,3 +1,15 @@
+codes = {
+    "apple": 1234,
+    "banana": 4011,
+    "tomato": 4087
+}
+
+console.log(codes["banana"]);
+
+x = document.createElement("h1")
+x.innerHTML = "this is an element that i created in javascript"
+document.getElementById("test").appendChild(x)
+
 
 function toggleText() {
     let text = document.getElementById("testButton").innerHTML
@@ -7,3 +19,5 @@ function toggleText() {
         document.getElementById("testButton").innerHTML = "Off"
     }
 }
+
+var a = []
