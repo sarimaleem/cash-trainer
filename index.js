@@ -1,5 +1,3 @@
-
-
 function getProduce() {
     // numerical guess at what the plu is for a given produce item
     let pluGuess = document.getElementById("userGuess").value
